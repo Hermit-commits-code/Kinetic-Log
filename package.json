@@ -1,0 +1,29 @@
+{
+  "name": "kinetic-log",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A completely free, highly private mood tracking application for rapid mixed cycling",
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hermit-commits-code/Kinetic-Log.git"
+  },
+  "keywords": [
+    "mood-tracking",
+    "mental-health",
+    "privacy",
+    "encryption",
+    "react-native"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Hermit-commits-code/Kinetic-Log/issues"
+  },
+  "homepage": "https://github.com/Hermit-commits-code/Kinetic-Log#readme",
+  "devDependencies": {
+    "husky": "^8.0.3"
+  }
+}

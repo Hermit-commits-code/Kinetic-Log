@@ -1,0 +1,42 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+# Conventional Commits validation
+# Format: <type>(<scope>): <subject>
+# Types: feat, fix, docs, style, refactor, test, chore
+
+commit_msg_file=$1
+commit_msg=$(cat "$commit_msg_file")
+
+# Regex pattern for Conventional Commits
+pattern="^(feat|fix|docs|style|refactor|test|chore|perf|ci|build|revert)(\(.+\))?: .{1,72}"
+
+if ! echo "$commit_msg" | grep -qE "$pattern"; then
+    echo "❌ ERROR: Commit message does not follow Conventional Commits specification"
+    echo ""
+    echo "Format: <type>(<optional scope>): <subject>"
+    echo ""
+    echo "Valid types:"
+    echo "  feat:     A new feature"
+    echo "  fix:      A bug fix"
+    echo "  docs:     Documentation changes"
+    echo "  style:    Code style changes (formatting, semicolons, etc)"
+    echo "  refactor: Code refactoring"
+    echo "  test:     Adding or updating tests"
+    echo "  chore:    Maintenance tasks"
+    echo "  perf:     Performance improvements"
+    echo "  ci:       CI/CD changes"
+    echo "  build:    Build system changes"
+    echo "  revert:   Reverting a previous commit"
+    echo ""
+    echo "Examples:"
+    echo "  feat: add biometric authentication"
+    echo "  fix(realm): correct encryption key generation"
+    echo "  docs: update README with setup instructions"
+    echo ""
+    echo "Your commit message:"
+    echo "  $commit_msg"
+    exit 1
+fi
+
+exit 0
