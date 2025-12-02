@@ -7,8 +7,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.0] - 2025-12-02
+
 ### Added
-- Initial repository setup
-- Professional README.md with privacy-first focus
-- .gitignore for React Native project
-- Development branch workflow
+- Initial repository setup with Git and branch protection strategy
+- Professional README.md emphasizing privacy-first architecture and LMHC reporting
+- Comprehensive .gitignore for React Native projects
+- Development branch workflow (main as stable, development for active work)
+- Conventional Commits validation via Husky pre-commit hooks
+- GitHub Actions workflow for automated SemVer and CHANGELOG management (Release Please)
+- Project roadmap and Phase 0 completion
+
+### Changed
+- N/A
+
+### Fixed
+- N/A
