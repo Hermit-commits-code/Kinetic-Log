@@ -2,6 +2,11 @@
 
 Keep this file updated. Check off items only after the feature is 100% complete and pushed.
 
+Releases
+- [x] v0.1.0 — 2025-12-02
+- [x] v0.1.1 — 2025-12-02
+- [x] v0.1.2 — 2025-12-02 (removed react-native-pdf-lib to fix Android build)
+
 - [x] Phase 0 — Professional Repository & CI/CD Setup
   - 0.1 Repo Setup — created repo, .gitignore, branches
   - 0.2 Branch Protection — prepared (needs GitHub UI enable)
