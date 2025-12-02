@@ -1,6 +1,6 @@
 {
   "name": "kinetic-log",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "private": true,
   "description": "A completely free, highly private mood tracking application for rapid mixed cycling",
   "scripts": {
