@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.4] - 2025-12-02
+### Added
+- chore: scaffold secure storage — 64-byte Realm key generator, react-native-keychain helper, encrypted Realm init, and AppInitializer component to open Realm on launch.
+- docs: ROADMAP updated to reflect Phase 1 progress.
+
 ## [0.1.3] - 2025-12-02
 ### Changed
 - chore: remove react-native-pdf-lib to fix Android build (continued)
@@ -17,7 +22,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - chore: remove react-native-pdf-lib due to unresolved Maven dependency (com.tom_roush:pdfbox-android:1.8.9.1)
 - chore: reinstall dependencies and apply Android local fixes to enable clean builds
 
-## [0.1.1] - YYYY-MM-DD
+## [0.1.1] - 2025-12-02
 ### Changed
 - chore: switch to vanilla JS — removed TypeScript artifacts and consolidated package.json
 - chore: updated devDependencies for React Native CLI and tooling
