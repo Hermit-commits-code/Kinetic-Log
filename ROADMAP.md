@@ -16,7 +16,7 @@ Releases
 
 - [x] Phase 1 — Setup & Secure Foundation
   - [x] 1.1 Project Setup (vanilla JS)
-  - [ ] 1.2 Install Core Deps (realm, keychain, nav, charts, pdf)
+  - [x] 1.2 Install Core Deps (realm, keychain, nav, charts, pdf)
   - [ ] 1.3 Key Generator (64-byte base64)
   - [ ] 1.4 Keychain Logic (getOrCreateEncryptionKey)
   - [ ] 1.5 Realm Init (MoodEntry schema + encrypted realm)
