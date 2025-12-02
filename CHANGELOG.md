@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.1] - YYYY-MM-DD
+### Changed
+- chore: switch to vanilla JS — removed TypeScript artifacts and consolidated package.json
+- chore: updated devDependencies for React Native CLI and tooling
+
 ## [0.1.0] - 2025-12-02
 
 ### Added
